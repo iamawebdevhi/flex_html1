@@ -33,3 +33,17 @@ header {
     background-color: blue;
     width:1000%
 }
+
+.pairformat{
+    display:flex;
+    width:100vw;
+    flex-direction:row;
+}
+
+.half{
+    width:50%
+}
+
+.half img{
+    width:100%
+}
