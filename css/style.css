@@ -1,0 +1,35 @@
+* {
+        box-sizing: border-box;
+    }
+*:before, *:after {
+        box-sizing: inherit;
+    }
+
+.container{
+    width: 56rem;
+    margin: 3rem, auto;
+}
+
+.title{
+    border-bottom: 1px dotted #bbbbbb;
+    width:25rem;
+    margin-bottom:4rem;
+}
+
+.section{
+    margin-bottom:3rem;
+}
+
+html{
+    scroll-behavior:smooth;
+    font-size:120%;
+}
+
+header {
+    position:sticky;
+    top: -5px;
+    padding-top:5px;
+    opacity: 0.8;
+    background-color: blue;
+    width:1000%
+}
